@@ -47,7 +47,7 @@ We never register, pay, or link a card on your behalf — every account and paym
 
 | Item | Official source | Verified |
 |---|---|---|
-| systeme.io pricing & affiliate terms | https://systeme.io/affiliate-program/ , https://systeme.io/pricing | 2026-11-23 |
+| systeme.io pricing & affiliate terms | https://systeme.io/affiliate-program/?sa=19804819 , https://systeme.io/pricing/?sa=19804819 | 2026-11-23 |
 | Zoho affiliate | https://www.zoho.com/affiliate/ | 2026-11-23 |
 | Cal.com affiliate | https://cal.com/affiliate-program | 2026-11-23 |
 | Hostinger affiliate | https://www.hostinger.com/affiliates | 2026-11-23 |
