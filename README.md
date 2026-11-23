@@ -77,7 +77,7 @@ Cal.com 处理"谁在什么时候来"，systeme.io 处理"来之前发提醒、�
 
 | 条目 | 官方来源 | 核验日期 |
 |---|---|---|
-| systeme.io 价格与联盟条款 | https://systeme.io/affiliate-program/ 、https://systeme.io/pricing | 2026-11-23 |
+| systeme.io 价格与联盟条款 | https://systeme.io/affiliate-program/?sa=19804819 、https://systeme.io/pricing/?sa=19804819 | 2026-11-23 |
 | Zoho 联盟 | https://www.zoho.com/affiliate/ | 2026-11-23 |
 | Cal.com 联盟 | https://cal.com/affiliate-program | 2026-11-23 |
 | Hostinger 联盟 | https://www.hostinger.com/affiliates | 2026-11-23 |
