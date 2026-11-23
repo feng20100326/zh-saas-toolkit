@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://feng20100326.github.io/zh-saas-toolkit/sitemap.xml
