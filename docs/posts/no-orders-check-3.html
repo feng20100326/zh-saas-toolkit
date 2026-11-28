@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>一周没订单，先查哪三件事 | 小商户工具笔记</title>
+<meta name="description" content="站上线没单，别急着降价或投广告：按技术链路、信息是否说清、有没有人真的来过三步排查，附可复制排查表与避坑清单。">
+<link rel="canonical" href="https://feng20100326.github.io/zh-saas-toolkit/posts/no-orders-check-3.html">
+<style>
+  :root{--ink:#16202c;--ink2:#4a5568;--line:#e2e8f0;--card:#fff;--bg:#f7f9fc;--accent:#1d4ed8;--accent2:#0f766e;--warn:#b45309;}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.75 -apple-system,"PingFang SC","Microsoft YaHei",Segoe UI,sans-serif;}
+  .wrap{max-width:880px;margin:0 auto;padding:32px 18px 72px}
+  h1{font-size:28px;line-height:1.35;margin:8px 0 6px}
+  h2{font-size:21px;margin:34px 0 10px;padding-top:14px;border-top:2px solid var(--line)}
+  h3{font-size:17px;margin:18px 0 6px}
+  p,li{color:var(--ink)}
+  .sub{color:var(--ink2);font-size:14px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px 20px;margin:16px 0}
+  .btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;padding:11px 18px;border-radius:8px;font-weight:600;font-size:15px;margin:6px 8px 6px 0}
+  .btn.ghost{background:#fff;color:var(--accent);border:1px solid var(--accent)}
+  table{width:100%;border-collapse:collapse;font-size:14px;background:var(--card);margin:10px 0;border-radius:10px;overflow:hidden}
+  th,td{border:1px solid var(--line);padding:9px 10px;text-align:left;vertical-align:top}
+  th{background:#eef2f7}
+  .disc{background:#fff7ed;border:1px solid #fed7aa;border-radius:12px;padding:16px 18px;margin:22px 0;font-size:14px;color:#7c2d12}
+  .note{background:#ecfdf5;border:1px solid #a7f3d0;border-radius:12px;padding:14px 16px;margin:16px 0;font-size:14px;color:#065f46}
+  .warn{background:#fffbeb;border:1px solid #fde68a;border-radius:12px;padding:14px 16px;margin:16px 0;font-size:14px;color:var(--warn)}
+  ul,ol{padding-left:22px}
+  a{color:var(--accent)}
+  footer{margin-top:40px;color:var(--ink2);font-size:13px;border-top:1px solid var(--line);padding-top:16px}
+  code{background:#eef2f7;padding:2px 6px;border-radius:5px;font-size:13px}
+  pre{background:#0f172a;color:#e2e8f0;padding:14px 16px;border-radius:10px;overflow:auto;font-size:13px;line-height:1.65;white-space:pre-wrap}
+  .post-nav{margin-bottom:18px;font-size:14px}
+  .post-nav a{text-decoration:none}
+  .postlist{font-size:14px}
+  .postlist li{margin:5px 0}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="post-nav"><a href="/zh-saas-toolkit/">← 返回首页：小商户建站 + 邮件营销 + 自动化 工具选型指南</a></nav>
+  <article>
+    <h1>一周没订单，先查哪三件事</h1>
+    <p class="sub">小商户工具笔记 · 第 6 篇 · 官方条款核验日期 2026-11-23 · 价格以官方结算页为准</p>
+
+    <h2>先说场景</h2>
+    <p>小站上线一周，后台一单没有。多数人的第一反应是三个动作之一：降价、换模板、投广告。这三个都要花钱，而且都可能在给一个「根本付不了款」的页面引流。真正该先做的，是不花钱的排查。</p>
+    <p>把「没订单」拆开看，其实只有三种可能：<b>链路不通</b>（人家想买但买不成）、<b>信息没说清</b>（来了但看不懂、不敢买）、<b>压根没人来</b>。<b>按这个顺序查，别跳步</b>——前两个没修好，投再多流量也是白烧。</p>
+
+    <h2>第一件：链路通不通，自己完整走一遍</h2>
+    <p>用手机流量（不是办公室 WiFi）打开首页，然后当一次客户：看商品 → 加购 → 填信息 → 提交/付款 → 看有没有收到确认 → 去后台看这条记录有没有进来。再故意填错一次，看错误提示说不说人话。同时检查表单通知发到哪个邮箱、会不会进垃圾箱。</p>
+    <p>这一步最常抓到的问题：通知邮箱没人看、确认信被拦、提交按钮在手机上点不到、付款方式其实没接通。<b>它们和「产品好不好」毫无关系，但足以让一周颗粒无收</b>。</p>
+
+    <h2>第二件：信息说清了没有，找外人复述一遍</h2>
+    <p>找两个没看过这个站的朋友，各看一小会儿，然后请他们复述三件事：<b>这卖的是什么、多少钱、怎么买</b>。复述不出来，就是页面的问题，不是客户的问题。重点核这几处：价格含不含运费、多久发货、怎么退换、出问题找谁、主图能不能看清实物。</p>
+    <p>还有个容易忽略的：页面上的价格、运费、退换规则，必须和你自己公示的一致；<b>数字按你实际能做到的写，别照抄同行</b>。写不清运费，客户不是「犹豫」，是根本没法算这笔账。</p>
+
+    <h2>第三件：有没有人真的来过</h2>
+    <p>只有前两件都过了，才轮到这一件。去看你后台或统计里实际能看到的访问记录，先分清是「没人来」还是「来了没买」——这两种的下一步完全相反。<b>以你自己账号里真实能看到的数据为准，别靠感觉，也别编数字</b>。</p>
+    <p>如果确实几乎没人来，那不是转化问题，是分发问题：站只是落地页，它不会自己带人。先把已有的私域、老客户、内容渠道用起来，再考虑投放；投放的规则、预算与效果都以平台官方说明和你自己的实测为准，本文不做任何效果承诺。</p>
+
+    <h2>可复制排查表</h2>
+    <pre>【一、链路】
+□ 手机流量打开首页能看
+□ 完整走一遍 看→加购→填信息→提交→收到确认
+□ 后台能看到这条记录
+□ 故意填错，提示看得懂
+□ 通知邮箱有人看、没进垃圾箱
+
+【二、信息】
+□ 两个外人都能复述「卖什么 / 多少钱 / 怎么买」
+□ 价格含不含运费写清
+□ 发货时效、退换、联系方式写清
+□ 页面数字与自己公示一致
+
+【三、有没有人来】
+□ 后台能看到访问记录吗（以真实数据为准）
+□ 分清「没人来」还是「来了没买」
+□ 前两栏全绿之前，不降价、不换模板、不投广告</pre>
+
+    <h2>容易踩的坑</h2>
+    <ul>
+      <li><b>一没单就降价</b>：如果问题在链路或信息，降价只会让利润先掉，单还是不来。</li>
+      <li><b>一没单就换模板</b>：换模板最费时间，且大概率不解决根因。</li>
+      <li><b>把访问量当意向</b>：来过不等于要买，别据此追加一堆动作。</li>
+      <li><b>把朋友的客气话当验证</b>：要让他「复述」，不要问「好不好看」。</li>
+      <li><b>编数字</b>：什么「一周必出单」「照做提升多少」都别信，本文也不承诺任何出单效果。</li>
+      <li><b>价格当承诺</b>：任何工具月费以官方结算页为准。</li>
+    </ul>
+
+    <div class="card">
+      <h3>如果你想一步到位，用这套</h3>
+      <p>表单、订单、确认邮件、跟进都在一个后台，链路是不是通、客户走到哪一步，后台一眼能看明白——比四处翻通知省事得多。</p>
+      <a class="btn" href="https://systeme.io/?sa=19804819" rel="nofollow sponsored noopener" target="_blank">看 systeme.io（Startup $17/月起）</a>
+      <a class="btn ghost" href="/zh-saas-toolkit/posts/1000-budget-site.html" rel="noopener">顺带看：上线前自测清单</a>
+    </div>
+
+    <div class="disc">
+      <b>完整披露</b>：本页链接是<b>推荐链接</b>——你通过它注册并购买，厂商会给我们一笔推荐佣金，<b>你付的价格与直接去官网买完全一样，我不加价、不多收你一分</b>。<b>我不代你注册、不代你付款、不碰你的账号与支付</b>，所有操作都在你自己的浏览器里完成。文中价格与条款核验日期 2026-11-23，实际以官方结算页与官方联盟页为准；本文不做价格担保，也不承诺任何访问量、转化或出单效果。
+    </div>
+  </article>
+
+  <div class="card">
+    <h3>这套笔记的 10 篇</h3>
+    <ol class="postlist">
+      <li><a href="/zh-saas-toolkit/posts/1000-budget-site.html">① 一个月 1000 块预算，怎么搭一个能收单的小站</a></li>
+      <li><a href="/zh-saas-toolkit/posts/first-email-template.html">② 邮件营销第一封该写什么（附可复制模板）</a></li>
+      <li><a href="/zh-saas-toolkit/posts/cart-recovery-3-ways.html">③ 弃单挽回的 3 种提醒写法</a></li>
+      <li><a href="/zh-saas-toolkit/posts/icp-filing-overseas-host.html">④ 独立站要备案吗？用海外主机的坑</a></li>
+      <li><a href="/zh-saas-toolkit/posts/crm-or-excel.html">⑤ CRM 到底要不要买？个体户用 Excel 够不够</a></li>
+      <li>⑥ 一周没订单，先查哪三件事（本文）</li>
+      <li><a href="/zh-saas-toolkit/posts/repeat-purchase-member-page.html">⑦ 怎么把老客户变成复购：会员页怎么设计</a></li>
+      <li><a href="/zh-saas-toolkit/posts/site-builder-7-criteria.html">⑧ 选建站工具的 7 个硬指标</a></li>
+      <li><a href="/zh-saas-toolkit/posts/automation-now-or-later.html">⑨ 小团队要不要上自动化？三个「现在就值」的场景</a></li>
+      <li><a href="/zh-saas-toolkit/posts/promo-page-without-brand-damage.html">⑩ 特价 / 促销页怎么做才不砸招牌</a></li>
+    </ol>
+  </div>
+
+  <footer>© 2026 zh-saas-toolkit · CC BY-NC-SA 4.0（转载请保留推荐链接与披露段落）· <a href="/zh-saas-toolkit/">首页</a></footer>
+</div>
+</body>
+</html>
